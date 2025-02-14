@@ -1,2 +1,2 @@
 # learning-deep-learning
-Implementations of fundamentals and newest DL concepts
+My implementations of fundamental and new machine / deep / reinforcement learning concepts.
