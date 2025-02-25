@@ -1,2 +1,2 @@
 # AI research implementations
-My implementations of fundamental and new machine learning, deep learning and reinforcement learning algorithms.
+Here I gather all of the research papers and concepts related to machine learning, deep learning and reinforcement learning that I implemented from scratch.
