@@ -1,6 +1,6 @@
 # AI research implementations
 
-Here I gather all of the research papers and concepts related to machine learning, deep learning and reinforcement learning that I implemented from scratch.
+Here I gather all of the research papers and concepts related to machine learning, deep learning, natural languauge processing, computer vision and reinforcement learning that I implemented from scratch.
 
 ## Computer Vision
 
