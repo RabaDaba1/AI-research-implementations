@@ -8,7 +8,8 @@ Here I gather all of the research papers and concepts related to machine learnin
 - **Paper**: "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" (Dosovitskiy et al., 2020)
 - **Implementation**: [computer_vision/vision_transformer.ipynb](computer_vision/vision_transformer.ipynb)
 - **Dataset**: MNIST
-- **Description**: Implements the Vision Transformer architecture that applies transformer models directly to image patches for image classification tasks.
+- **Description**: Implementation of the Vision Transformer architecture that applies transformer models directly to image patches for image classification tasks. Visualization of attention patterns in Vision Transformer, showing how the model focuses on different parts of the image when making predictions.
+![ViT Attention Map](images/vision_transformer_attention.png)
 
 ## Natural Language Processing
 
