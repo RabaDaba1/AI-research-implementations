@@ -11,6 +11,15 @@ Here I gather all of the research papers and concepts related to machine learnin
 - **Description**: Implementation of the Vision Transformer architecture that applies transformer models directly to image patches for image classification tasks. Visualization of attention patterns in Vision Transformer, showing how the model focuses on different parts of the image when making predictions.
 ![ViT Attention Map](images/vision_transformer_attention.png)
 
+## Self-Supervised Learning
+
+### SimCLR
+- **Paper**: "A Simple Framework for Contrastive Learning of Visual Representations" (Chen et al., 2020)
+- **Implementation**: [self_supervised_learning/SimCLR.ipynb](self_supervised_learning/SimCLR.ipynb)
+- **Dataset**: CIFAR-10
+- **Description**: Implementation of the SimCLR framework for contrastive learning, which learns visual representations by maximizing similarity between differently augmented views of the same image. The notebook demonstrates how self-supervised pre-training improves downstream task performance, especially in low-data regimes (10% of labeled data) compared to supervised learning.
+![SimCLR Performance Comparison](images/accuracy_comparison.png)
+
 ## Natural Language Processing
 
 ### Transformer
