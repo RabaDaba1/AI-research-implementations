@@ -17,8 +17,15 @@ Here I gather all of the research papers and concepts related to machine learnin
 - **Paper**: "A Simple Framework for Contrastive Learning of Visual Representations" (Chen et al., 2020)
 - **Implementation**: [self_supervised_learning/SimCLR.ipynb](self_supervised_learning/SimCLR.ipynb)
 - **Dataset**: CIFAR-10
-- **Description**: Implementation of the SimCLR framework for contrastive learning, which learns visual representations by maximizing similarity between differently augmented views of the same image. The notebook demonstrates how self-supervised pre-training improves downstream task performance, especially in low-data regimes (10% of labeled data) compared to supervised learning.
+- **Description**: The notebook demonstrates how self-supervised pre-training improves downstream task performance, especially in low-data regimes (10% of labeled data) compared to supervised learning.
 ![SimCLR Performance Comparison](images/accuracy_comparison.png)
+- **3D Embedding Visualization**
+UMAP visualization of the learned embeddings shows that semantically similar classes (dogs and cats) cluster together in embedding space, while dissimilar classes (frog/ship, truck/dog) remain clearly separated - demonstrating how SimCLR captures meaningful semantic relationships without explicit labels.
+<div align="center">
+  <img src="images/embeddings_dog_cat.png" width="33%" alt="Dog-Cat Embeddings">
+  <img src="images/embeddings_truck_dog.png" width="33%" alt="Truck-Dog Embeddings">
+  <img src="images/embeddings_frog_ship.png" width="33%" alt="Ship-Frog Embeddings">
+</div>
 
 ## Natural Language Processing
 
