@@ -22,7 +22,7 @@ Here I gather all of the research papers and concepts related to machine learnin
 - **3D Embedding Visualization**
 UMAP visualization of the learned embeddings shows that semantically similar classes (dogs and cats) cluster together in embedding space, while dissimilar classes (frog/ship, truck/dog) remain clearly separated - demonstrating how SimCLR captures meaningful semantic relationships without explicit labels.
 <div align="center">
-  <img src="images/embeddings_dog_cat.png" width="33%" alt="Dog-Cat Embeddings">
+  <img src="images/embeddings_dog_cat_frog.png" width="33%" alt="Dog-Cat Embeddings">
   <img src="images/embeddings_truck_dog.png" width="33%" alt="Truck-Dog Embeddings">
   <img src="images/embeddings_frog_ship.png" width="33%" alt="Ship-Frog Embeddings">
 </div>
